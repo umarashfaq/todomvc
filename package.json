@@ -19,6 +19,7 @@
     "redux": "^4.0.4",
     "reselect": "^4.0.0",
     "source-map-explorer": "^2.0.1",
+    "todomvc-app-css": "^2.2.0",
     "typescript": "3.5.3"
   },
   "scripts": {
