@@ -1,9 +1,9 @@
-import React, { Component, useState, useCallback } from 'react'
-import PropTypes from 'prop-types'
+import React, { useState, useCallback } from 'react'
 import classnames from 'classnames'
 import { TodoTextInput } from './TodoTextInput'
 import { Todo } from '../types';
-import { noop } from '@babel/types';
+
+const noop = () => {}
 
 export interface TodoItemProps {
     todo: Todo;
